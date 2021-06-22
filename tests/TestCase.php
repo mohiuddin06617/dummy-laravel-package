@@ -3,8 +3,8 @@
 namespace Mohiuddin06617\DummyLaravelPackage\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mohiuddin06617\DummyLaravelPackage\DummyLaravelPackageServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

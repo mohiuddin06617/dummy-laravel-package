@@ -2,9 +2,9 @@
 
 namespace Mohiuddin06617\DummyLaravelPackage;
 
+use Mohiuddin06617\DummyLaravelPackage\Commands\DummyLaravelPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mohiuddin06617\DummyLaravelPackage\Commands\DummyLaravelPackageCommand;
 
 class DummyLaravelPackageServiceProvider extends PackageServiceProvider
 {
