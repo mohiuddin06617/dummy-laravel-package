@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "mohiuddin06617/dummy-laravel-package",
+    "description": "This is my package DummyLaravelPackage",
     "keywords": [
-        ":vendor_name",
+        "mohiuddin06617",
         "laravel",
-        "package_slug"
+        "dummy-laravel-package"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/mohiuddin06617/dummy-laravel-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Mohiuddin Ahmed",
+            "email": "mohiuddin6617@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Mohiuddin06617\\DummyLaravelPackage\\": "src",
+            "Mohiuddin06617\\DummyLaravelPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Mohiuddin06617\\DummyLaravelPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mohiuddin06617\\DummyLaravelPackage\\DummyLaravelPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "DummyLaravelPackage": "Mohiuddin06617\\DummyLaravelPackage\\DummyLaravelPackageFacade"
             }
         }
     },

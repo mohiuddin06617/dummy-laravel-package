@@ -1,2 +1,2 @@
 providers:
-  - VendorName\Skeleton\SkeletonServiceProvider
+  - Mohiuddin06617\DummyLaravelPackage\DummyLaravelPackageServiceProvider
